@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
+html,
+body {
+    font-family: "Parkinsans", sans-serif;
+    background-color: #DAF7A6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px 10px;
+    text-align: center;
+}
+
+form {
+    margin: 20px;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 350px;
+    border: 1px solid transparent;
+    border-radius: 9px;
+}
+
+input::placeholder {
+    font-size: 17px;
+}
+
+.btn-add {
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    font-size: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-weight: 500;
+    margin-top: 15px;
+}
+
+.btn-add:hover {
+    background-color: aliceblue;
+}
+
+.task-item.completed {
+    color: #bbb;
+    text-decoration: line-through;
+}
+
+.task-item {
+    padding-bottom: 10px;
+    margin-bottom: 2px solid #000;
+}
+
+.task-item span {
+    font-size: 17px;
+}
+
+.task-item button {
+    cursor: pointer;
+    margin-top: 20px;
+    word-spacing: 2px;
+    margin-left: 20px;
+    padding: 9px 16px;
+    font-weight: 700;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
